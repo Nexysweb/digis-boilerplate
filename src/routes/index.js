@@ -2,7 +2,9 @@ import Router from 'koa-router';
 import bodyParser from 'koa-body';
 import Joi from '@hapi/joi';
 
-import { responseHandler } from '../middleware/index';
+import { Middleware } from '@nexys/koa-lib';
+
+const { responseHandler } = Middleware;
 
 const router = new Router();
 

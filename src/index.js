@@ -1,3 +1,8 @@
 import App from './app';
+import { port } from './config';
 
-App();
+const startApp = async () => {
+  App.listen(port, () => console.log(`Server started at port ${port}`));
+};
+
+startApp();

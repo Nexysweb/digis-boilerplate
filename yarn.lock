@@ -1045,13 +1045,13 @@
     dotenv "^8.1.0"
     request-promise-native "^1.0.8"
 
-"@nexys/koa-lib@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@nexys/koa-lib/-/koa-lib-1.2.1.tgz#1472f82ad93a29f650c069137ec145599a09aa5a"
-  integrity sha512-0umLeceT+2hofN4y008MQ+Jwx5x5Qq4utxTabbCzxl4X0O2/K2GnMq8Qe5cgqP3rtr8kmSUb+PkbPjb1bDnHhg==
+"@nexys/koa-lib@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@nexys/koa-lib/-/koa-lib-1.2.2.tgz#fd65fe27b1e1a82acd4756796061052ea7af954d"
+  integrity sha512-m7RMHUZ1bIJnL3UjPe0kJRwTAk2Hh/HDoz3ywc6XVDRksgxuKZj45X0UEljnZcaS+L0vdiJbJMsHLyqqTk2PKA==
   dependencies:
     "@babel/runtime" "^7.5.5"
-    "@nexys/lib" "^1.4.11"
+    "@nexys/lib" "^1.6.1"
     "@nexys/utils" "^3.2.21"
     http-proxy "^1.18.0"
     joi "^14.3.1"
@@ -1059,15 +1059,17 @@
     koa-basic-auth "^4.0.0"
     koa-body "^4.1.1"
     koa-compose "^4.1.0"
+    koa-helmet "^5.2.0"
     koa-mount "^4.0.0"
     koa-passport "^4.1.3"
+    koa-respond "^2.1.0"
     koa-router "^7.4.0"
     nock "^11.7.0"
     path-match "^1.2.4"
     server-destroy "^1.0.1"
     supertest "^4.0.2"
 
-"@nexys/lib@^1.4.11":
+"@nexys/lib@^1.6.1":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@nexys/lib/-/lib-1.6.1.tgz#28e326ff2d58f89457d8d1ef8047ca4ad0e8e136"
   integrity sha512-Yiu7vAPBDCEAy0OE72MZmUK8z4k/fLcE5PTv88nUdr/2IFZqEmf90rwKAOqug3nWdYEkMFFdzawcnVXOeCEwKg==
