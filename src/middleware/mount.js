@@ -1,9 +1,10 @@
 import mount from 'koa-mount';
+import { rootPath } from '../config';
 
-export const mountHandler = (route, path) => {
-  path = path || route;
+export const mountHandler = (route, filepath) => {
+  filepath = filepath || route;
 
-  console.log(path)
-  console.log(route)
-  return mount(`${route}`, require('../routes/' + path).default);
+  const fullpath = rootPath + '/routes/' + filepath
+
+  return mount(`${route}`, require(fullpath).default);
 }

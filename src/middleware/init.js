@@ -4,8 +4,6 @@ import Koa from 'koa';
 import Helmet from 'koa-helmet';
 import respond from 'koa-respond';
 
-
-
 const app = new Koa();
 
 // NOTE: important security headers (https://github.com/venables/koa-helmet)
